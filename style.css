@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans|Roboto);
+
+/***********************************
+ * ----------- GENERAL ----------- *
+ ***********************************/
+
+html {
+	/*
+	font-family: Cool font here;
+	font-size: Cool size here;
+	*/
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(images/arches.png);
+	background-repeat: repeat-x repeat-y;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+/***********************************
+ * ------------ MAIN ------------- *
+ ***********************************/
+
+main {
+	width: 800px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/***********************************
+ * ----------- SIDEBAR ----------- *
+ ***********************************/
+
+aside {
+	width: 26%;
+}
+
+/***********************************
+ * ----------- HEADER ------------ *
+ * Note that the header is in the  *
+ * sidebar.                        *
+ ***********************************/
+
+aside header li {
+	width: 85px;
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button:link, .button:visited {
+	display: block;
+	width: 85px;
+	height: 85px;
+	//background-image: url(images/about.png);
+	background-size: 85px;
+	background-repeat: no-repeat;	
+	transition: background-image 0.1s ease;
+}
+
+.button:hover, .button:active {
+	transition: background-image 0.1s ease;
+}
+
+#home:link, #home:visited {
+	background-image: url(images/about.png);
+}
+
+#home:hover, #home:active {
+	background-image: url(images/about_tilt.png);
+}
+
+#about:link, #about:visited {
+	background-image: url(images/about.png);
+}
+
+#about:hover, #about:active {
+	background-image: url(images/about_tilt.png);
+}
+
+#caps:link, #caps:visited {
+	background-image: url(images/about.png);
+}
+
+#caps:hover, #caps:active {
+	background-image: url(images/about_tilt.png);
+}
+
+/***********************************
+ * ----------- CONTENT ----------- *
+ ***********************************/
+
+section.column {
+ 	width: 63%;
+}
+
+article img {
+	max-width: 200px;
+	float: right;
+	margin: 15px;
+}
