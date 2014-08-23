@@ -94,11 +94,11 @@ aside header li {
 }
 
 #caps:link, #caps:visited {
-	background-image: url(images/about.png);
+	background-image: url(images/caps.png);
 }
 
 #caps:hover, #caps:active {
-	background-image: url(images/about_tilt.png);
+	background-image: url(images/caps_tilt.png);
 }
 
 /***********************************
